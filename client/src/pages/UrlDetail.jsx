@@ -21,7 +21,6 @@ export default function UrlsPage() {
           Shortened URLs
         </h1>
 
-        {/* Table for medium+ screens */}
         <div className="hidden md:block w-full max-w-6xl overflow-x-auto rounded-xl shadow-lg bg-gray-800">
           <table className="w-full text-left border-collapse">
             <thead>
@@ -74,7 +73,6 @@ export default function UrlsPage() {
           </table>
         </div>
 
-        {/* Card layout for small screens */}
         <div className="grid gap-4 w-full md:hidden">
           {urls.length > 0 ? (
             urls.map((url) => (
