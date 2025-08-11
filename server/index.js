@@ -14,10 +14,6 @@ app.use("/", router);
 
 const PORT = process.env.PORT;
 
-app.get("/", async (req, res) => {
-  res.json("Hello There its Kanhaiya");
-});
-
 app.listen(PORT, () => {
   console.log(`Server is running on PORT: ${PORT}`);
 });
